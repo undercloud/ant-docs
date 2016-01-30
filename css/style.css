@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	color: #282828;
+	font-family: Arial;
+}
+
+h1, h2 {
+	font-family: "Fira Sans";
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+a {
+	color: #222;
+}
+
+.page-root {
+
+}
+
+.page-header {
+	padding: 100px 0;
+	border-bottom: 3px solid #282828;
+	background-color: #ffeb3b;
+}
+
+.vendor-logo {
+	font-size: 200px;
+	font-family: "Fira Sans";
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/bug-s-life/500/ant-512.png);
+	background-repeat: no-repeat;
+	background-size: 170px;
+	width: 550px;
+	padding-left: 180px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.page-container {
+	margin: 20px auto;
+	width: 800px;
+}
+
+.page-menu {
+	width: 200px;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.page-menu .main-menu,
+.page-menu .main-menu .sub-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.page-menu .main-menu .sub-menu {
+	margin-left: 20px;
+}
+
+.main-menu > li > a {
+	font-weight: bold;
+}
+
+.main-menu li {
+	line-height: 1.5em;
+}
+
+.page-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 580px;
+}
+
+.main-menu li a {
+	text-decoration: none;
+}
+
+.main-menu li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.page-footer {
+	padding: 50px;
+	border-top: 1px solid #ddd;
+	background-color: #eee;
+}
