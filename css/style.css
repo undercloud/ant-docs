@@ -26,7 +26,7 @@ p {
 }
 
 a {
-	color: #222;
+	color: #282828;
 }
 
 .page-root {
@@ -37,6 +37,10 @@ a {
 	padding: 100px 0;
 	border-bottom: 3px solid #282828;
 	background-color: #ffeb3b;
+}
+
+.page-header.small {
+	
 }
 
 .vendor-logo {
@@ -54,13 +58,19 @@ a {
 	margin: 0 auto;
 }
 
+.vendor-abbr {
+	font-size: 24px;
+	font-weight: normal;
+	text-align: left;
+}
+
 .page-container {
 	margin: 20px auto;
 	width: 800px;
 }
 
 .page-menu {
-	width: 200px;
+	width: 250px;
 	vertical-align: top;
 	display: inline-block;
 	font-size: 18px;
@@ -88,7 +98,7 @@ a {
 .page-content {
 	display: inline-block;
 	vertical-align: top;
-	width: 580px;
+	width: 530px;
 }
 
 .main-menu li a {
@@ -104,4 +114,41 @@ a {
 	padding: 50px;
 	border-top: 1px solid #ddd;
 	background-color: #eee;
+}
+
+.section {
+	font-size: 16px;
+}
+
+.section .section-footer {
+	margin: 5px 0;
+	text-align: right;
+}
+
+.section .section-footer a {
+	text-decoration: none;
+	color: #aaa;
+	font-size: 14px;
+}
+
+.section .section-footer a:before {
+	content: '#';
+}
+
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted {
+  color: rgba(208,179,68,1);
+}
+
+.token.atrule, .token.attr-value, .token.keyword {
+  color: rgba(152,114,162,1);
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+	background: #fff;
+	margin: 10px 0;
+	padding: 0;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+	color: #282828;
 }

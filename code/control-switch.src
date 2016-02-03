@@ -1,0 +1,13 @@
+@switch ($fruit)
+	@case ('apple')
+		<img src="apple.png" />
+	@break
+
+	@case ('pear')
+		<img src="pear.png" />
+	@break
+
+	@default
+		<img src="no-image.png" />
+	@break
+@endswitch

@@ -1,0 +1,3 @@
+@unless ($is_mobile)
+	<div>You use desktop version</div>
+@endunless

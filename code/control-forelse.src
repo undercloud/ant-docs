@@ -1,0 +1,5 @@
+@forelse ($comments as $com)
+	...
+@empty
+	<div>No comments yet :(</div>
+@endforelse

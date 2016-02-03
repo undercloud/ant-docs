@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Include Blocks</title>
+</head>
+<body>
+	@include ('header')
+	...
+	@include ('content')
+	...
+	@include ('footer')
+</body>
+</html>

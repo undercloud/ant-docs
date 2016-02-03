@@ -1,0 +1,7 @@
+@each ('view.path', $comments, 'com')
+...
+//view.path
+<div>
+	<div>{{ $com.date }}</div>
+	<div>{{ $com.text }}</div>
+</div>

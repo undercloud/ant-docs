@@ -1,0 +1,7 @@
+@if ($condition)
+	<div>Block One</div>
+@elseif ($alter)
+	<div>Block Two</div>
+@else
+	<div>Block Three</div>
+@endif

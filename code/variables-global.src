@@ -1,0 +1,6 @@
+// $_GET['name']
+{{ $.get.name }}
+// $_SERVER['DOCUMENT_ROOT']
+{{ $.server.DOCUMENT_ROOT }}
+// $GLOBALS['foo']
+{{ $.globals.foo }}
