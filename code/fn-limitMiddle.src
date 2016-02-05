@@ -1,0 +1,1 @@
+limitMiddle($text, $limit = 250, $postfix = '...')

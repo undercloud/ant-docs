@@ -136,11 +136,15 @@ a {
 }
 
 .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted {
-  color: rgba(208,179,68,1);
+  color: #693;
 }
 
 .token.atrule, .token.attr-value, .token.keyword {
-  color: rgba(152,114,162,1);
+  color: #936;
+}
+
+.token.regex, .token.important, .token.variable {
+  color: #369;
 }
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {

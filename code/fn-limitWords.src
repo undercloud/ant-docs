@@ -1,0 +1,1 @@
+limitWords($s, $limit = 250, $postfix = '...')
