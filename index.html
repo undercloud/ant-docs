@@ -16,6 +16,12 @@
 <body>
 	<div class="page-root">
 		<div class="page-header">
+			<div class="page-header-vendor clearfix">
+				<div class="vendor-container">
+					<img class="avatar" src="https://avatars2.githubusercontent.com/u/9054259?v=3&s=460">
+					<span class="stars">12 345</span>
+				</div>
+			</div>
 			<div class="vendor-logo">
 				ANT
 				<div class="vendor-abbr">awesome new templates</div>
@@ -30,6 +36,15 @@
 					<li>
 						<a href="#usage">Usage</a>
 						<ul class="sub-menu">
+							<li>
+								<a href="#usage-basic">Basic</a>
+							</li>
+							<li>
+								<a href="#usage-setup">Setup</a>
+							</li>
+							<li>
+								<a href="#usage-project-structure">Project structure</a>
+							</li>
 							<li>
 								<a href="#usage-events">Events</a>
 							</li>
@@ -72,17 +87,15 @@
 								<a href="#control-each">@each</a>
 							</li>
 							<li>
-								<a href="#control-include">@include</a>
+								<a href="#control-import">@import</a>
+							</li>
+							<li>
+								<a href="#control-widget">@widget</a>
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a href="#">Inheritance</a>
-						<ul class="sub-menu">
-							<li>
-								<a href="#">First</a>
-							</li>
-						</ul>
 					</li>
 					<li>
 						<a href="#fn">Functions</a>
@@ -134,6 +147,9 @@
 							</li>
 							<li>
 								<a href="#fn-lorem">lorem</a>
+							</li>
+							<li>
+								<a href="#fn-number">number</a>
 							</li>
 							<li>
 								<a href="#fn-bytesHuman">bytesHuman</a>
@@ -203,7 +219,8 @@
 				<h2 id="control-foreach">@foreach</h2>
 				<h2 id="control-forelse">@forelse</h2>
 				<h2 id="control-each">@each</h2>
-				<h2 id="control-include">@include</h2>
+				<h2 id="control-import">@import</h2>
+				<h2 id="control-widget">@widget</h2>					
 
 				<h1 id="fn">Functions</h1>
 				<h2 id="fn-doctype">doctype</h2>
@@ -222,6 +239,7 @@
 				<h2 id="fn-limitWords">limitWords</h2>
 				<h2 id="fn-limitMiddle">limitMiddle</h2>
 				<h2 id="fn-lorem">lorem</h2>
+				<h2 id="fn-number">number</h2>
 				<h2 id="fn-bytesHuman">bytesHuman</h2>
 				<h2 id="fn-roundHuman">roundHuman</h2>
 				<h2 id="fn-ordinal">ordinal</h2>
