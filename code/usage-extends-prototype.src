@@ -1,0 +1,3 @@
+Ant::init()
+	...
+	->rule($rx, $call)
