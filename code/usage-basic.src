@@ -1,0 +1,15 @@
+require 'vendor/autoload.php';
+
+use Ant\Ant;
+
+echo Ant::init()
+  ->get('index')
+  ->assign([
+    'title' => "Hello, I'm ANT",
+    'features' => [
+    	'simple',
+    	'flexible',
+    	'awesome'
+    ]
+  ])
+  ->draw();

@@ -1,0 +1,15 @@
+// index.ant
+
+<html>
+  <head>
+    <title>{{ $title }}</title>
+  </head>
+  <body>
+    List of features
+    <ul>
+    @foreach ($features as $item)
+      <li>{{ $item }}</li>
+    @foreach
+    </ul>
+  </body>
+</html>

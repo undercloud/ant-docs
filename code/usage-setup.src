@@ -1,0 +1,20 @@
+require 'vendor/autoload.php';
+
+use Ant\Ant;
+
+//setup instance
+Ant::init()
+	->setup([
+		/* define root directory of your templates */
+	 	'view'  => '/path/to/view',
+		/* define cache directory for compiled templates */
+		'cache' => '/path/to/cache',
+		/* you can define your own template extension, default *.ant */
+		'extension' => 'mytmpl',
+		/* ignore caching, if option equal true, default false */
+		'debug' => true, 
+		/* if equal true - ignore rendering and always 
+		   try load from cache, use in production for better performance, 
+		   default false */
+		'freeze' => true
+	]);
