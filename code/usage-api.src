@@ -1,0 +1,21 @@
+class Ant
+{
+	function init();
+	function setup(array $s);
+	function settings($name = false);
+	function bind($event, $call)
+	function on($event, $call)
+	function preventParentEvent($prevent);
+	function share($name, $call);
+	function register($plugin, $call);
+	function activate($plugin, array $options = array())
+	function rule($rx, $call);
+	function logic($path);
+	function has($path);
+	function get($path);
+	function fromString($s);
+	function fromFile($path);
+	function assign(array $data = array());
+	function draw();
+	function view();
+}

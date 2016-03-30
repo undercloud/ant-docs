@@ -1,0 +1,10 @@
+//global events
+Ant::init()
+	...
+	->bind($event, $call);
+
+//local events
+Ant::init()
+	...
+	->on($event, $call);
+

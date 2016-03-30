@@ -4,10 +4,10 @@
 	<title>Include Blocks</title>
 </head>
 <body>
-	@include ('header')
+	@import ('header')
 	...
-	@include ('content')
+	@import ('content')
 	...
-	@include ('footer')
+	@import ('footer')
 </body>
 </html>

@@ -1,0 +1,5 @@
+Ant::init()
+	->logic($path)
+	->get()
+	->assign()
+	->draw();
