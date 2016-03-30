@@ -9,6 +9,8 @@ Ant::init()
 	 	'view'  => '/path/to/view',
 		/* define cache directory for compiled templates */
 		'cache' => '/path/to/cache',
+		/* define logic path, default empty */
+		'logic' => '/path/to/logic',
 		/* you can define your own template extension, default *.ant */
 		'extension' => 'mytmpl',
 		/* ignore caching, if option equal true, default false */

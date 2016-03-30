@@ -1,0 +1,2 @@
+// will be transformed into /content/products/list.ant
+Ant::init()->get('content.products.list')

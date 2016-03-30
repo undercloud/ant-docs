@@ -13,7 +13,7 @@ $(document).ready(function(){
 						var src = $(c).attr('src')
 
 						$.get(
-							'code/' + src + '.src',
+							'code/' + src + '.src?' + (new Date().getTime()),
 							function(data){
 								$(c)
 									.text(data)
