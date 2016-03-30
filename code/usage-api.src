@@ -1,14 +1,15 @@
 class Ant
 {
+	// create new insance
 	function init();
 	function setup(array $s);
 	function settings($name = false);
-	function bind($event, $call)
-	function on($event, $call)
+	function bind($event, $call);
+	function on($event, $call);
 	function preventParentEvent($prevent);
 	function share($name, $call);
 	function register($plugin, $call);
-	function activate($plugin, array $options = array())
+	function activate($plugin, array $options = array());
 	function rule($rx, $call);
 	function logic($path);
 	function has($path);
