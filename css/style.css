@@ -169,10 +169,10 @@ ul.top-menu li {
 	font-weight: bold;
 }
 
-ul.top-menu li:hover {
+/*ul.top-menu li:hover {
 	color: #1C90F3;
 	border-bottom: 3px solid #1C90F3;
-}
+}*/
 
 ul.top-menu li:hover a {
 	color: inherit;

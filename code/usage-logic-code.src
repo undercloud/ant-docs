@@ -1,0 +1,4 @@
+// /logic/path/to/template.php
+$date = $this->date($date, 'd/m/Y');
+$name = $this->capitalize($name);
+$size = $this->bytesHuman($size);

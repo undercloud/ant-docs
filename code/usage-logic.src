@@ -1,5 +1,9 @@
 Ant::init()
+	->get('template')
+	->assign([
+		'date' => '2002-05-04',
+		'name' => 'john',
+		'size' => 45654321
+	])
 	->logic($path)
-	->get()
-	->assign()
 	->draw();

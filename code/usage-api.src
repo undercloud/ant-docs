@@ -1,22 +1,74 @@
 class Ant
 {
-	// create new insance
+	/*
+	 * Create new insance
+	 */
 	function init();
-	function setup(array $s);
+	
+	/*
+	 * Return settings params, if $name = false - return all
+	 * @param string $name - settings name
+	 */
 	function settings($name = false);
-	function bind($event, $call);
-	function on($event, $call);
-	function preventParentEvent($prevent);
-	function share($name, $call);
-	function register($plugin, $call);
-	function activate($plugin, array $options = array());
-	function rule($rx, $call);
-	function logic($path);
+
+	/*
+	 * Check template exists
+	 * @param string $path - path to template
+	 */
 	function has($path);
+
+	/*
+	 * Select template
+	 * @param string $path - path to template
+	 */
 	function get($path);
+	
+	/*
+	 * Load template from string
+	 * @param string $s - template string
+	 */
 	function fromString($s);
+
+	/*
+	 * Load template from file
+	 * @param string $path - path to template file
+	 */
 	function fromFile($path);
+
+	/**
+	 * Accept template variables
+	 * @param array $data - variables
+	 */
 	function assign(array $data = array());
+
+	/**
+	 * Render template
+	 * @return rendered string
+	*/
 	function draw();
-	function view();
+
+	/*
+	 * Helper wrapper for Ant::init()->get()->assign()->draw()
+	 *	@param string $path - path to template
+	 */
+	function view($path);
+
+	/*
+	 * @param string $path - path to template
+	 * @param array $assign - variables
+	 */
+	function view($path, array $assign);
+
+	/*
+	 * @param string $path - path to template
+	 * @param string $logic - path to logic file
+	 */
+	function view($path, $logic);
+
+	/*
+	 * @param string $path - path to template
+	 * @param array $assign - variables
+	 * @param string $logic - path to logic file
+	 */
+	function view($path, array $assign, $logic);
 }
