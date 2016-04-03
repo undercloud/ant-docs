@@ -13,15 +13,15 @@ class Ant
 
 	/*
 	 * Check template exists
-	 * @param string $path - path to template
+	 * @param string $name - template name
 	 */
-	function has($path);
+	function has($name);
 
 	/*
 	 * Select template
-	 * @param string $path - path to template
+	 * @param string $name - path to template
 	 */
-	function get($path);
+	function get($name);
 	
 	/*
 	 * Load template from string
