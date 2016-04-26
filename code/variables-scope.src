@@ -1,0 +1,3 @@
+@each('view.path', $comments, 'com', $.scope)
+
+@import('view.path', $.scope)

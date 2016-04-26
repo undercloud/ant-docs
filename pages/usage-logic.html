@@ -1,26 +1,25 @@
 <div class="section">
 	<p>Logic - special layer between <span class="inline-tag">model</span> and 
-	<span class="inline-tag">view</span> in classic MVC pattern.</p>
-	<p>Logic layer process variables and </p>
-	
+	<span class="inline-tag">view</span> in classic MVC pattern.<br>
+	Logic layer process variables and pass it to template. If logic path is 
+	defined, use folder structure same as view:</p>
 <div class="inline-tag project-folders">
 <pre>
 views/
 │   ├──path/
-│   │   ├──/to
-│   │   │   ├──template.ant
-└── └── └── └── ...
+│   │   ├──to/
+│   │   │   ├──...
+└── └── └── └──template.ant
 
 logic/
 │   ├──path/
-│   │   ├──/to
-│   │   │   ├──template.php
-└── └── └── └── ...
-
+│   │   ├──to/
+│   │   │   ├──...
+└── └── └── └──template.php
 </pre>
 </div>
-
-	<pre><code src="usage-logic" class="language-php"></code></pre>
-
-	<pre><code src="usage-logic-code" class="language-php"></code></pre>
+<p>If logic file is exists, ANT include and process it.</p>
+<p>Another way use logic - define logic path manually:</p>
+<pre><code src="usage-logic" class="language-php"></code></pre>
+<pre><code src="usage-logic-code" class="language-php"></code></pre>
 </div>

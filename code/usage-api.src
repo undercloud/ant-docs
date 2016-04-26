@@ -1,74 +1,80 @@
 class Ant
 {
 	/*
-	 * Create new insance
+	 * Create new instance
 	 */
 	function init();
 	
 	/*
 	 * Return settings params, if $name = false - return all
+	 *
 	 * @param string $name - settings name
 	 */
 	function settings($name = false);
 
 	/*
 	 * Check template exists
+	 *
 	 * @param string $name - template name
 	 */
 	function has($name);
 
 	/*
 	 * Select template
-	 * @param string $name - path to template
+	 *
+	 * @param string $name - template name
 	 */
 	function get($name);
 	
 	/*
 	 * Load template from string
+	 *
 	 * @param string $s - template string
 	 */
 	function fromString($s);
 
 	/*
 	 * Load template from file
+	 *
 	 * @param string $path - path to template file
 	 */
 	function fromFile($path);
 
 	/**
 	 * Accept template variables
+	 *
 	 * @param array $data - variables
 	 */
 	function assign(array $data = array());
 
 	/**
 	 * Render template
-	 * @return rendered string
 	*/
 	function draw();
 
 	/*
 	 * Helper wrapper for Ant::init()->get()->assign()->draw()
-	 *	@param string $path - path to template
+	 *
+	 *	@param string $path - template name
 	 */
-	function view($path);
+	function view($name);
 
 	/*
 	 * @param string $path - path to template
 	 * @param array $assign - variables
 	 */
-	function view($path, array $assign);
+	function view($name, array $assign);
 
 	/*
 	 * @param string $path - path to template
 	 * @param string $logic - path to logic file
 	 */
-	function view($path, $logic);
+	function view($name, $logic);
 
 	/*
 	 * @param string $path - path to template
 	 * @param array $assign - variables
 	 * @param string $logic - path to logic file
 	 */
-	function view($path, array $assign, $logic);
+	function view($name, array $assign, $logic);
 }
