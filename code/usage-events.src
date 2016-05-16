@@ -1,22 +1,27 @@
 //global events
-Ant::init()
-	...
-	->bind($event, $call);
+$ant = Ant::init()->setup(/*...*/);
+
+$eid = $ant->bind('build', function ($s) { /*...*/ });
+$eid = $ant->bind('prepare', function ($s) { /*...*/ });
+$eid = $ant->bind('exec', function ($s) { /*...*/ });
+
+//unbind event
+$ant->unbind($eid);
 
 //local events
-Ant::init()
-	...
-	->on($event, $call)
-	// global events can be cancelled by
-	->preventParentEvent($event);
+$ant = Ant::init();
 
-// callback example
-Ant::init()
-	->get('index')
-	->on('exec', function($s){
-		/* some action */
+$ant->get('template');
+$ant->assign($data);
 
-		return $s;
-	});
+$eid = $ant->on('build', function ($s) { /*...*/ });
+$eid = $ant->on('prepare', function ($s) { /*...*/ });
+$eid = $ant->on('exec', function ($s) { /*...*/ });
 
+//unbind local event
+$ant->off($eid);
 
+$ant->draw();
+
+//cancel global event
+$ant->preventParentEvent($event);

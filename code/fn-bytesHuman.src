@@ -1,1 +1,2 @@
+// 4637467 => 4.42 MB
 bytesHuman($size, $precision = 2)

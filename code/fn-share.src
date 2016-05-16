@@ -1,0 +1,10 @@
+//define function
+Ant::share('pow', function($n) {
+	return $n * $n;
+});
+
+//check function exists
+Ant::isShared('pow')
+
+//call
+{{ ::pow(5) }}

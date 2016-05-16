@@ -1,0 +1,2 @@
+// 3548791 => 3 548 791
+number($num, $precision = 0)

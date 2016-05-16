@@ -1,0 +1,3 @@
+template($str, $params...)
+//ANT is simple, flexible and awesome
+template('ANT is {1}, {2} and {3}', 'simple', 'flexible', 'awesome')

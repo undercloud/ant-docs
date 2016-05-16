@@ -1,1 +1,2 @@
-ordinal($cdnl)
+// 25 => 25th
+ordinal($num)

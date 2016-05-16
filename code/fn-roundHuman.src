@@ -1,1 +1,2 @@
+// 637467 => 637.47 K
 roundHuman($size, $precision = 2)

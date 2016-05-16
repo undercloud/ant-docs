@@ -1,1 +1,1 @@
-escape($s, $double = true)
+escape($s, $double = false)

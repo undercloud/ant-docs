@@ -1,6 +1,6 @@
 @foreach ($comments as $com)
-	<div>
-		<div>{{ $com.date }}</div>
-		<div>{{ $com.text }}</div>
+	<div class="comment-item">
+		<div class="comment-date">{{ $com.date }}</div>
+		<div class="comment-text">{{ $com.text }}</div>
 	</div>
 @endforeach

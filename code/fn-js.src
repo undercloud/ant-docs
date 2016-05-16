@@ -1,1 +1,4 @@
 js($src, $defer = "")
+
+// or you can use shortcut
+@js($src, $defer = "")

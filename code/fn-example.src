@@ -1,0 +1,5 @@
+//short syntax
+{{ ::functionName($param) }}
+
+//long syntax
+{{ $this->ant->functionName($param) }}

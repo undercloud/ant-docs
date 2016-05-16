@@ -1,7 +1,7 @@
 @each ('view.path', $comments, 'com')
 ...
 //view.path
-<div>
-	<div>{{ $com.date }}</div>
-	<div>{{ $com.text }}</div>
+<div class="comment-item">
+	<div class="comment-date">{{ $com.date }}</div>
+	<div class="comment-text">{{ $com.text }}</div>
 </div>
