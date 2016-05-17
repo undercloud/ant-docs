@@ -1,1 +1,1 @@
-lower($s)
+lower($string)

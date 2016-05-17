@@ -1,2 +1,2 @@
 // I \u2665 HTML => I ♥ HTML
-unicode($s)
+unicode($string)

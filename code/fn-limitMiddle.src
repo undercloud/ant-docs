@@ -1,1 +1,1 @@
-limitMiddle($text, $limit = 250, $postfix = '...')
+limitMiddle($string, $limit = 250, $postfix = '...')

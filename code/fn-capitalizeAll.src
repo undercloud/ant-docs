@@ -1,1 +1,1 @@
-capitalizeAll($s)
+capitalizeAll($string)

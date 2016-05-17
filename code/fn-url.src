@@ -1,2 +1,2 @@
 // ['foo' => 'bar', 'baz' => 'quux'] => foo=bar&baz=quux
-url(array $a)
+url(array $params)

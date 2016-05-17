@@ -1,1 +1,1 @@
-decode($s)
+decode($string)

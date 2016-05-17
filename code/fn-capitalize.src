@@ -1,1 +1,1 @@
-capitalize($s)
+capitalize($string)
