@@ -1,0 +1,16 @@
+use Ant\Ant;
+
+// activate plugin
+$ant = Ant::init()
+	->setup([
+		...
+	])
+	->activate($pluginOne)
+	->activate($pluginTwo)
+	->activate($pluginThree);
+
+// check is plugin activated
+$ant->isActivated($plugin)
+
+// deactivate plugin
+$ant->deactivate($plugin)

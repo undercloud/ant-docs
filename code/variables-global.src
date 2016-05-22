@@ -4,3 +4,5 @@
 {{ $.server.DOCUMENT_ROOT }}
 // $GLOBALS['foo']
 {{ $.globals.foo }}
+// shortcut helper
+{{ $.ant }}

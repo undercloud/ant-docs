@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inheritance Example</title>
+	<script type="text/javascript" src="/path/to/script.js"></script>
+	<script type="text/javascript" src="/path/to/another.js"></script>
+	<link type="text/css" rel="stylesheet" href="/path/to/another.css" />
+	<link type="text/css" rel="stylesheet" href="/path/to/style.css" />
+</head>
+<body>
+	<main>Contents</main>
+</body>

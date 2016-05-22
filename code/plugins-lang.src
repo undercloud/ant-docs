@@ -1,0 +1,3 @@
+$ant->activate('Lang'[,$options])
+// you can use $.lang shortcut helper
+{{ $.lang('message.name') }}

@@ -1,0 +1,20 @@
+@foreach ($collection as $item)
+	// check first iteration
+	@if ($collection->isFirst())
+		...
+	// check last iteration
+	@if ($collection->isLast())
+		...
+	// is between first and last
+	@if ($collection->isMiddle())
+		...
+	// is iteration number is odd
+	@if ($collection->isOdd())
+		...
+	// is iteration number is even
+	@if ($collection->isEven())
+		...
+	// is iteration number divisible by number
+	@if ($collection->isDivisible($by))
+		...
+@endforeach

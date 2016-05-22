@@ -1,0 +1,19 @@
+// layout.ant
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inheritance Example</title>
+	@block('scripts')
+		@js('/path/to/script.js')
+	@endblock
+
+	@block('styles')
+		@css('/path/to/style.css')
+	@endblock
+</head>
+<body>
+	@block('contents')
+		<main>Content will be replaced</main>
+	@endblock
+</body>
+</html>

@@ -1,0 +1,3 @@
+$ant->activate('Faker', ['locale' => 'en_US'])
+// 'Lucy Cechtelar'
+{{ $.plugin->faker->name  }}

@@ -21,7 +21,7 @@ $eid = $ant->on('exec', function ($s) { /*...*/ });
 //unbind local event
 $ant->off($eid);
 
-$ant->draw();
-
 //cancel global event
 $ant->preventParentEvent($event);
+
+$ant->draw();

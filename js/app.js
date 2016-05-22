@@ -29,6 +29,18 @@ $(document).ready(function(){
 	})
 
 	$(document).scroll(function(){
-		
-	})
+		var ln = 1700;
+		var top = $(this).scrollTop();
+
+		if (top >= ln) {
+			$('#up').show();
+		} else {
+			$('#up').hide();
+		}
+	});
+
+	$('#up').click(function(){
+		$(this).hide();
+		$(document).scrollTop(0);
+	});
 })

@@ -1,0 +1,7 @@
+$ant->activate('YouTube')
+// extended setup
+$ant->activate('YouTube', ['params' => [...], 'attrs' => [...]])
+// embed video
+{{{ $.plugin->youtube($video_id[,$options]) }}}
+// get preview image url, $size - one of values: hq, mq, sd, maxres or empty for default
+{{ $.plugin->youtube->preview($video_id[,$size]) }}

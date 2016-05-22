@@ -1,0 +1,30 @@
+// plugin definition
+class MyPlugin
+{
+	public function __construct(array $options)
+	{
+		/*...*/
+	}
+
+	public function __invoke($param)
+	{
+		/*...*/
+	}
+
+	public function methodName($param)
+	{
+		/*...*/
+	}
+}
+
+// global init
+Ant::init()
+	->setup([
+		...
+	])
+	->register('myplugin', new MyPlugin($options));
+
+// call __invoke
+{{ $.plugin->myplugin($param) }}
+// call methodName
+{{ $.plugin->myplugin->methodName($param) }}

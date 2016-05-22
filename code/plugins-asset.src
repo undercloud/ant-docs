@@ -1,0 +1,5 @@
+$ant->activate('Asset')
+// /path/to/script.js?1463545199
+{{ $.plugin->asset($path) }}
+// <script src="/path/to/script.js?1463545199"></script>
+@js($path)

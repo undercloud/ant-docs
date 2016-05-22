@@ -1,0 +1,3 @@
+$ant->activate('InlineCSS')
+
+{{ $.plugin->css(['color' => 'red', 'font-weight' => 'bold']) }}

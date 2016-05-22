@@ -1,0 +1,4 @@
+// basic validator, check DOM tree only
+$ant->activate('Validator')
+// strict, check deprecated tags and attrs, non standard tags, required attrs etc...
+$ant->activate('Validator', ['strict' => true])

@@ -1,0 +1,14 @@
+// inject.ant
+@extends('layout')
+
+@inject('scripts')
+	@js('/path/to/another.js')
+@append
+
+@inject('styles')
+	@css('/path/to/another.css')
+@prepend
+
+@inject('contents')
+	<main>Contents</main>
+@rewrite

@@ -1,1 +1,2 @@
+// Lorem ipsum dolor...te feugait nulla facilisi.
 limitMiddle($string, $limit = 250, $postfix = '...')
