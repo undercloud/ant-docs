@@ -1,5 +1,5 @@
 //global events
-$ant = Ant::init()->setup(/*...*/);
+$ant = Ant::init()->setup([/*...*/]);
 
 $eid = $ant->bind('build', function ($s) { /*...*/ });
 $eid = $ant->bind('prepare', function ($s) { /*...*/ });
